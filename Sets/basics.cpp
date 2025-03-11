@@ -18,8 +18,7 @@ int main(){
     s.insert(4);
     s.insert(5);
     int target=5;
-    string a=45;
-    cout<<a;
+    
     //s.find()-> it returns the element if found otherwise it returns the last element
     if(s.find(target)!= s.end()){
        cout<<"exists"<<endl;

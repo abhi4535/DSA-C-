@@ -1,5 +1,5 @@
 #include<iostream>
-#include<queue>
+#include<queue>// by including this header file we can access priority queue as well as queue ds.
 
 using namespace std;
 
@@ -7,7 +7,7 @@ int main(){
 
     priority_queue<int> pq;// this is by default max heap for min heap we have pass some parameter 
 
-    priority_queue<int, vector<int>, greater<int>> hp;
+    priority_queue<int, vector<int>, greater<int>> hp;//here priority_queue is an object and this is min priority  queue
 
     cout<<'[';
 

@@ -48,7 +48,7 @@ int main(){
 
     for(int i=0; i<10; i++){
         swap(v[i],v[v.size()-i-1]);
-        downHeapify(i, v, v.size()-i-3);
+        downHeapify(i, v, v.size()-i-2);
     }
 
     

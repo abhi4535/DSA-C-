@@ -2,7 +2,7 @@
 using namespace std;
 
 class Bike{
- static int noOfBike;
+ static int noOfBike;// static allocation this belongs to class not object
  int engine;
  int milage;
 
@@ -23,7 +23,7 @@ class Bike{
  int getBikes(){
     return noOfBike;
  }
-
+// static function ,this can only access static function
  static void setNoOfBike(int no){
       noOfBike=no;
  }
@@ -32,7 +32,7 @@ class Bike{
  
 };
 
-int Bike::noOfBike=2;
+int Bike::noOfBike=2;// this belongs to only class, here we scope resolution operator i.e, (::) this helps to identify the varibles
 
 int main(){
     Bike pp(90,80);

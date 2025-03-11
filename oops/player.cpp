@@ -111,6 +111,8 @@ int main(){
     akm.safety=90;
     akm.scope=99;
 
+    
+
     abhishek.setGun(akm);
     abhishek.setHelmet(60);
     abhishek.getHelmet();
